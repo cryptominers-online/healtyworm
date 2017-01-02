@@ -1,4 +1,4 @@
-RCoinUSA-qt: Qt4 GUI for RCoinUSA
+HealthyWormCoin-qt: Qt4 GUI for HealthyWormCoin
 ===============================
 
 Build instructions

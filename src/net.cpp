@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Core developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1046,7 +1046,7 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-        string strDesc = "RCoinUSA " + FormatFullVersion();
+        string strDesc = "HealthyWormCoin " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1137,11 +1137,10 @@ void MapPort(bool /* unused fMapPort */)
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
-// testnet dns seed begins with 't', all else are RCoinUSA dns seeds.
+// testnet dns seed begins with 't', all else are HealthyWormCoin dns seeds.
 static const char *strDNSSeed[][2] = {
-    {"seed1", "n1.rcoinusa.com"},
-    {"seed2", "n2.rcoinusa.com"},
-    {"seed3", "n3.rcoinusa.com"},
+    {"98.144.161.18", "98.144.161.18"},
+    {"seednode", "worm.healthyworm.com"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1168,7 +1167,7 @@ void ThreadDNSAddressSeed2(void* parg)
     printf("ThreadDNSAddressSeed started\n");
     int found = 0;
 
-    if (true /*!fTestNet*/)  // RCoinUSA enables dns seeding with testnet too
+    if (true /*!fTestNet*/)  // HealthyWormCoin enables dns seeding with testnet too
     {
         printf("Loading addresses from DNS seeds (could take a while)\n");
 
@@ -1616,7 +1615,7 @@ void ThreadMessageHandler2(void* parg)
     }
 }
 
-// RCoinUSA: stake minter thread
+// HealthyWormCoin: stake minter thread
 void static ThreadStakeMinter(void* parg)
 {
     printf("ThreadStakeMinter started\n");
@@ -1725,7 +1724,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer.  RCoinUSA is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer.  HealthyWormCoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1844,7 +1843,7 @@ void StartNode(void* parg)
     // Get addresses from IRC and advertise ours
     // if (!CreateThread(ThreadIRCSeed, NULL))
     //     printf("Error: CreateThread(ThreadIRCSeed) failed\n");
-    // IRC disabled with RCoinUSA
+    // IRC disabled with HealthyWormCoin
     printf("IRC seeding/communication disabled\n");
 
     // Send and receive from sockets, accept connections
@@ -1870,7 +1869,7 @@ void StartNode(void* parg)
     // Generate coins in the background
     GenerateBitcoins(GetBoolArg("-gen", false), pwalletMain);
 
-    // RCoinUSA: mint proof-of-stake blocks in the background
+    // HealthyWormCoin: mint proof-of-stake blocks in the background
     if (!CreateThread(ThreadStakeMinter, pwalletMain))
         printf("Error: CreateThread(ThreadStakeMinter) failed\n");
 }

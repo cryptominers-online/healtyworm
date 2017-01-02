@@ -15,8 +15,8 @@
 #include <string>
 #include "uint256.h"
 
-#define RCoinUSA_PORT  18094
-#define RPC_PORT     28094
+#define HealthyWormCoin_PORT  8064
+#define RPC_PORT     9064
 #define TESTNET_PORT 11064
 #define TESTNET_RPC_PORT 21064
 
@@ -26,7 +26,7 @@ void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent = false);
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? TESTNET_PORT : RCoinUSA_PORT;
+    return testnet ? TESTNET_PORT : HealthyWormCoin_PORT;
 }
 
 

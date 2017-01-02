@@ -1,8 +1,8 @@
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef RCoinUSA_KERNEL_H
-#define RCoinUSA_KERNEL_H
+#ifndef HealthyWormCoin_KERNEL_H
+#define HealthyWormCoin_KERNEL_H
 
 #include "main.h"
 
@@ -45,4 +45,4 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex);
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum);
 
-#endif // RCoinUSA_KERNEL_H
+#endif // HealthyWormCoin_KERNEL_H

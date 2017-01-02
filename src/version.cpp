@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <string>
@@ -7,14 +7,14 @@
 #include "version.h"
 
 // Name of client reported in the 'version' message. Report the same name
-// for both RCoinUSAd and RCoinUSA(-qt), to make it harder for attackers to
+// for both HealthyWormCoind and HealthyWormCoin(-qt), to make it harder for attackers to
 // target servers or GUI users specifically.
 
-// For the current run of RCoinUSA releases, the client name should be selected from
+// For the current run of HealthyWormCoin releases, the client name should be selected from
 // the list of ancient coinage, from oldest known to more recent. 
 // You can find ideas for future client names, here: http://en.wikipedia.org/wiki/List_of_historical_currencies
 
-const std::string CLIENT_NAME("RCoinUSA");
+const std::string CLIENT_NAME("HealthyWorm.com");
 
 // Client version number
 #define CLIENT_VERSION_SUFFIX   ""
@@ -51,13 +51,13 @@ const std::string CLIENT_NAME("RCoinUSA");
     "v" STRINGIFY(maj) "." STRINGIFY(min) "." STRINGIFY(rev) "." STRINGIFY(build) "-g" commit
 
 #define BUILD_DESC_FROM_UNKNOWN(maj,min,rev,build) \
-    "v" STRINGIFY(maj) "." STRINGIFY(min) "." STRINGIFY(rev) "." STRINGIFY(build) "-RCoinUSA"
+    "v" STRINGIFY(maj) "." STRINGIFY(min) "." STRINGIFY(rev) "." STRINGIFY(build) "-HealthyWormCoin"
 
 #ifndef BUILD_DESC
 #    ifdef GIT_COMMIT_ID
-#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(RCoinUSA_VERSION_MAJOR, RCoinUSA_VERSION_MINOR, RCoinUSA_VERSION_REVISION, RCoinUSA_VERSION_BUILD, GIT_COMMIT_ID)
+#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(HealthyWormCoin_VERSION_MAJOR, HealthyWormCoin_VERSION_MINOR, HealthyWormCoin_VERSION_REVISION, HealthyWormCoin_VERSION_BUILD, GIT_COMMIT_ID)
 #    else
-#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(RCoinUSA_VERSION_MAJOR, RCoinUSA_VERSION_MINOR, RCoinUSA_VERSION_REVISION, RCoinUSA_VERSION_BUILD)
+#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(HealthyWormCoin_VERSION_MAJOR, HealthyWormCoin_VERSION_MINOR, HealthyWormCoin_VERSION_REVISION, HealthyWormCoin_VERSION_BUILD)
 #    endif
 #endif
 

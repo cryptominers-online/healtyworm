@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -777,7 +777,7 @@ void FormatException(char* pszMessage, std::exception* pex, const char* pszThrea
     pszModule[0] = '\0';
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "RCoinUSA";
+    const char* pszModule = "HealthyWormCoin";
 #endif
     if (pex)
         snprintf(pszMessage, 1000,
@@ -852,12 +852,12 @@ boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
 
-    // Windows: C:\Documents and Settings\username\Application Data\RCoinUSA
-    // Mac: ~/Library/Application Support/RCoinUSA
-    // Unix: ~/.RCoinUSA
+    // Windows: C:\Documents and Settings\username\Application Data\HealthyWormCoin
+    // Mac: ~/Library/Application Support/HealthyWormCoin
+    // Unix: ~/.HealthyWormCoin
 #ifdef WIN32
     // Windows
-    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "RCoinUSA";
+    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "HealthyWormCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -869,10 +869,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "RCoinUSA";
+    return pathRet / "HealthyWormCoin";
 #else
     // Unix
-    return pathRet / ".RCoinUSA";
+    return pathRet / ".HealthyWormCoin";
 #endif
 #endif
 }
@@ -916,7 +916,7 @@ boost::filesystem::path GetConfigFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathConfigFile(GetArg("-conf", "RCoinUSA.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "HealthyWormCoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -952,7 +952,7 @@ boost::filesystem::path GetPidFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathPidFile(GetArg("-pid", "RCoinUSAd.pid"));
+    fs::path pathPidFile(GetArg("-pid", "HealthyWormCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1071,10 +1071,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong RCoinUSA will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    ThreadSafeMessageBox(strMessage+" ", string("RCoinUSA"), wxOK | wxICON_EXCLAMATION);
+                    ThreadSafeMessageBox(strMessage+" ", string("HealthyWormCoin"), wxOK | wxICON_EXCLAMATION);
                 }
             }
         }
@@ -1116,9 +1116,9 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     if (!comments.empty())
         ss << "(" << boost::algorithm::join(comments, "; ") << ")";
     ss << "/";
-    ss << "RCoinUSA:" << FormatVersion(RCoinUSA_VERSION);
+    ss << "HealthyWormCoin:" << FormatVersion(HealthyWormCoin_VERSION);
     ss << "/";
-    ss << "RCoinUSA:" << FormatVersion(RCoinUSA_VERSION);
+    ss << "HealthyWormCoin:" << FormatVersion(HealthyWormCoin_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }
@@ -1126,7 +1126,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "RCoinUSA.lnk";
+    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "HealthyWormCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -1207,7 +1207,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "RCoinUSA.desktop";
+    return GetAutostartDir() / "HealthyWormCoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -1248,7 +1248,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=RCoinUSA\n";
+        optionFile << "Name=HealthyWormCoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -13,19 +13,19 @@
 
 // These need to be macro's, as version.cpp's voodoo requires it
 
-// RCoinUSA version - intended for display purpose only
-#define RCoinUSA_VERSION_MAJOR       1
-#define RCoinUSA_VERSION_MINOR       0
-#define RCoinUSA_VERSION_REVISION    0
-#define RCoinUSA_VERSION_BUILD       0
+// HealthyWormCoin version - intended for display purpose only
+#define HealthyWormCoin_VERSION_MAJOR       1
+#define HealthyWormCoin_VERSION_MINOR       0
+#define HealthyWormCoin_VERSION_REVISION    0
+#define HealthyWormCoin_VERSION_BUILD       0
 
-static const int RCoinUSA_VERSION =
-                           1000000 * RCoinUSA_VERSION_MAJOR
-                         +   10000 * RCoinUSA_VERSION_MINOR
-                         +     100 * RCoinUSA_VERSION_REVISION
-                         +       1 * RCoinUSA_VERSION_BUILD;
+static const int HealthyWormCoin_VERSION =
+                           1000000 * HealthyWormCoin_VERSION_MAJOR
+                         +   10000 * HealthyWormCoin_VERSION_MINOR
+                         +     100 * HealthyWormCoin_VERSION_REVISION
+                         +       1 * HealthyWormCoin_VERSION_BUILD;
 
-// RCoinUSA version - reference for code tracking
+// HealthyWormCoin version - reference for code tracking
 #define PPCOIN_VERSION_MAJOR       0
 #define PPCOIN_VERSION_MINOR       4
 #define PPCOIN_VERSION_REVISION    0

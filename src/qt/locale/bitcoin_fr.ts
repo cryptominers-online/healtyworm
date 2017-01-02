@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About RCoinUSA</source>
-        <translation>À propos de RCoinUSA</translation>
+        <source>About HealthyWormCoin</source>
+        <translation>À propos de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2014 Développeurs de RCoinUSA</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2014 Développeurs de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2011-2014 Développeurs de RCoinUSA</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2011-2014 Développeurs de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -51,8 +51,8 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your RCoinUSA addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses RCoinUSA pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
+        <source>These are your HealthyWormCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses HealthyWormCoin pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -262,15 +262,15 @@ Ce produit inclut des logiciels développés par le projet OpenSSL pour utilisat
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RCoinUSAS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HealthyWormCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATTENTION : si vous cryptez votre porte-monnaie et perdez votre mot de passe, vous &lt;b&gt;PERDREZ TOUS VOS RCoinUSAS&lt;/b&gt; !
+        <translation>ATTENTION : si vous cryptez votre porte-monnaie et perdez votre mot de passe, vous &lt;b&gt;PERDREZ TOUS VOS HealthyWormCoinS&lt;/b&gt; !
 Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>RCoinUSA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RCoinUSAs from being stolen by malware infecting your computer.</source>
-        <translation>RCoinUSA va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos RCoinUSAs par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
+        <source>HealthyWormCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HealthyWormCoins from being stolen by malware infecting your computer.</source>
+        <translation>HealthyWormCoin va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos HealthyWormCoins par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -385,8 +385,8 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about RCoinUSA</source>
-        <translation>Afficher des informations sur RCoinUSA</translation>
+        <source>Show information about HealthyWormCoin</source>
+        <translation>Afficher des informations sur HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -500,38 +500,38 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>RCoinUSA Wallet</source>
-        <translation>Porte-monnaie RCoinUSA</translation>
+        <source>HealthyWormCoin Wallet</source>
+        <translation>Porte-monnaie HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a RCoinUSA address</source>
-        <translation>Envoyer des pièces à une adresse RCoinUSA</translation>
+        <source>Send coins to a HealthyWormCoin address</source>
+        <translation>Envoyer des pièces à une adresse HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About RCoinUSA</source>
-        <translation>&amp;À propos de RCoinUSA</translation>
+        <source>&amp;About HealthyWormCoin</source>
+        <translation>&amp;À propos de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for RCoinUSA</source>
-        <translation>Modifier la configuration des options pour RCoinUSA</translation>
+        <source>Modify configuration options for HealthyWormCoin</source>
+        <translation>Modifier la configuration des options pour HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;RCoinUSA</source>
-        <translation>Afficher/Masquer &amp;RCoinUSA</translation>
+        <source>Show/Hide &amp;HealthyWormCoin</source>
+        <translation>Afficher/Masquer &amp;HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the RCoinUSA window</source>
-        <translation>Afficher ou masquer la fenêtre RCoinUSA</translation>
+        <source>Show or hide the HealthyWormCoin window</source>
+        <translation>Afficher ou masquer la fenêtre HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>RCoinUSA client</source>
-        <translation>Client RCoinUSA</translation>
+        <source>HealthyWormCoin client</source>
+        <translation>Client HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -540,7 +540,7 @@ Etes-vous sûr de vouloir crypter votre porte-monnaie ?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to RCoinUSA network</source>
+        <source>%n active connection(s) to HealthyWormCoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -681,8 +681,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. RCoinUSA can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a eu lieu. RCoinUSA ne peut plus continuer de manière sure et va se fermer.</translation>
+        <source>A fatal error occured. HealthyWormCoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a eu lieu. HealthyWormCoin ne peut plus continuer de manière sure et va se fermer.</translation>
     </message>
 </context>
 <context>
@@ -987,8 +987,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show RCoinUSA addresses in the transaction list</source>
-        <translation>Afficher ou non les adresses RCoinUSA dans la liste des transactions</translation>
+        <source>Whether to show HealthyWormCoin addresses in the transaction list</source>
+        <translation>Afficher ou non les adresses HealthyWormCoin dans la liste des transactions</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1055,8 +1055,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid RCoinUSA address.</source>
-        <translation>L&apos;adresse saisie &quot;%1&quot; n&apos;est pas une adresse RCoinUSA valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HealthyWormCoin address.</source>
+        <translation>L&apos;adresse saisie &quot;%1&quot; n&apos;est pas une adresse HealthyWormCoin valide.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1098,8 +1098,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the RCoinUSA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client RCoinUSA sur le routeur. Ceci ne fonctionne que si votre routeur supporte UPnP et l&apos;a activé.</translation>
+        <source>Automatically open the HealthyWormCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client HealthyWormCoin sur le routeur. Ceci ne fonctionne que si votre routeur supporte UPnP et l&apos;a activé.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1109,7 +1109,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Connexion au réseau RCoinUSA à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
+        <translation>Connexion au réseau HealthyWormCoin à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1153,13 +1153,13 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start RCoinUSA on window system startup</source>
-        <translation>&amp;Démarrer RCoinUSA au lancement du système de fenêtrage</translation>
+        <source>&amp;Start HealthyWormCoin on window system startup</source>
+        <translation>&amp;Démarrer HealthyWormCoin au lancement du système de fenêtrage</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start RCoinUSA after the computer is turned on</source>
-        <translation>Démarrer automatiquement RCoinUSA après la mise en marche de l&apos;ordinateur</translation>
+        <source>Automatically start HealthyWormCoin after the computer is turned on</source>
+        <translation>Démarrer automatiquement HealthyWormCoin après la mise en marche de l&apos;ordinateur</translation>
     </message>
 </context>
 <context>
@@ -1486,8 +1486,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>RCoinUSA (RCoinUSA) debug window</source>
-        <translation>Fenêtre de débogage de RCoinUSA</translation>
+        <source>HealthyWormCoin (HealthyWormCoin) debug window</source>
+        <translation>Fenêtre de débogage de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1578,8 +1578,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the RCoinUSA RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Bienvenue dans la console RPC de RCoinUSA.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l&apos;historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l&apos;écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
+        <source>Welcome to the HealthyWormCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Bienvenue dans la console RPC de HealthyWormCoin.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l&apos;historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l&apos;écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
     </message>
 </context>
 <context>
@@ -1793,7 +1793,7 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Attention : Adresse RCoinUSA invalide</translation>
+        <translation>Attention : Adresse HealthyWormCoin invalide</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1812,8 +1812,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Entrez une adresse RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Entrez une adresse HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1901,8 +1901,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Entrez une adresse RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Entrez une adresse HealthyWormCoin</translation>
     </message>
 </context>
 <context>
@@ -1966,8 +1966,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this RCoinUSA address</source>
-        <translation>Signez le message pour prouver que vous possédez cette adresse RCoinUSA</translation>
+        <source>Sign the message to prove you own this HealthyWormCoin address</source>
+        <translation>Signez le message pour prouver que vous possédez cette adresse HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -2002,8 +2002,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified RCoinUSA address</source>
-        <translation>Vérifiez le message pour vous assurer qu&apos;il a été signé par l&apos;adresse RCoinUSA spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified HealthyWormCoin address</source>
+        <translation>Vérifiez le message pour vous assurer qu&apos;il a été signé par l&apos;adresse HealthyWormCoin spécifiée</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2028,8 +2028,8 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Entrez une adresse RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Entrez une adresse HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2587,18 +2587,18 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  RCoinUSA is probably already running.</source>
-        <translation>Impossible de se lier au port %d de cet ordinateur. RCoinUSA est probablement déjà en cours de fonctionnement.</translation>
+        <source>Unable to bind to port %d on this computer.  HealthyWormCoin is probably already running.</source>
+        <translation>Impossible de se lier au port %d de cet ordinateur. HealthyWormCoin est probablement déjà en cours de fonctionnement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>RCoinUSA version</source>
-        <translation>Version de RCoinUSA</translation>
+        <source>HealthyWormCoin version</source>
+        <translation>Version de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or RCoinUSAd</source>
-        <translation>Envoyer une commande à -server ou à RCoinUSAd</translation>
+        <source>Send command to -server or HealthyWormCoind</source>
+        <translation>Envoyer une commande à -server ou à HealthyWormCoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2617,13 +2617,13 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: RCoinUSA.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : RCoinUSA.conf)</translation>
+        <source>Specify configuration file (default: HealthyWormCoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : HealthyWormCoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: RCoinUSAd.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : RCoinUSAd.pid)</translation>
+        <source>Specify pid file (default: HealthyWormCoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : HealthyWormCoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2878,30 +2878,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  RCoinUSA is probably already running.</source>
-        <translation>Impossible d&apos;obtenir un verrou pour le répertoire des données %s.  RCoinUSA est probablement déjà en cours de fonctionnement.</translation>
+        <source>Cannot obtain a lock on data directory %s.  HealthyWormCoin is probably already running.</source>
+        <translation>Impossible d&apos;obtenir un verrou pour le répertoire des données %s.  HealthyWormCoin est probablement déjà en cours de fonctionnement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>RCoinUSA</source>
-        <translation>RCoinUSA</translation>
+        <source>HealthyWormCoin</source>
+        <translation>HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of RCoinUSA</source>
-        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de RCoinUSA</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HealthyWormCoin</source>
+        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart RCoinUSA to complete</source>
-        <translation>Le porte-monnaie a besoin d&apos;être réécrit : redémarrez RCoinUSA pour compléter le processus</translation>
+        <source>Wallet needed to be rewritten: restart HealthyWormCoin to complete</source>
+        <translation>Le porte-monnaie a besoin d&apos;être réécrit : redémarrez HealthyWormCoin pour compléter le processus</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=RCoinUSArpc
+rpcuser=HealthyWormCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2910,8 +2910,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong RCoinUSA will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure RCoinUSA ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure HealthyWormCoin ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

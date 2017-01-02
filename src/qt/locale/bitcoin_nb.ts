@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About RCoinUSA</source>
-        <translation>Om RCoinUSA</translation>
+        <source>About HealthyWormCoin</source>
+        <translation>Om HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2014 RCoinUSA Utviklerne</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2014 HealthyWormCoin Utviklerne</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2011-2014 RCoinUSA Utviklerne</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2011-2014 HealthyWormCoin Utviklerne</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your RCoinUSA addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine RCoinUSA-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your HealthyWormCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine HealthyWormCoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RCoinUSAS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HealthyWormCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE RCoinUSAS&lt;/b&gt;! 
+        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE HealthyWormCoinS&lt;/b&gt;! 
 Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>RCoinUSA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RCoinUSAs from being stolen by malware infecting your computer.</source>
-        <translation>RCoinUSA vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine RCoinUSAs fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>HealthyWormCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HealthyWormCoins from being stolen by malware infecting your computer.</source>
+        <translation>HealthyWormCoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine HealthyWormCoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -348,7 +348,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Motta RCoinUSAs</translation>
+        <translation>&amp;Motta HealthyWormCoins</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -358,7 +358,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="221"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Send RCoinUSAs</translation>
+        <translation>&amp;Send HealthyWormCoins</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="227"/>
@@ -382,8 +382,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about RCoinUSA</source>
-        <translation>Vis informasjon om RCoinUSA</translation>
+        <source>Show information about HealthyWormCoin</source>
+        <translation>Vis informasjon om HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>RCoinUSA Wallet</source>
-        <translation>RCoinUSA Lommebok</translation>
+        <source>HealthyWormCoin Wallet</source>
+        <translation>HealthyWormCoin Lommebok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a RCoinUSA address</source>
-        <translation>Send mynter til en RCoinUSA-adresse</translation>
+        <source>Send coins to a HealthyWormCoin address</source>
+        <translation>Send mynter til en HealthyWormCoin-adresse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About RCoinUSA</source>
-        <translation>&amp;Om RCoinUSA</translation>
+        <source>&amp;About HealthyWormCoin</source>
+        <translation>&amp;Om HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for RCoinUSA</source>
-        <translation>Endre oppsett for RCoinUSA</translation>
+        <source>Modify configuration options for HealthyWormCoin</source>
+        <translation>Endre oppsett for HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;RCoinUSA</source>
-        <translation>Vis/Skjul &amp;RCoinUSA</translation>
+        <source>Show/Hide &amp;HealthyWormCoin</source>
+        <translation>Vis/Skjul &amp;HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the RCoinUSA window</source>
-        <translation>Vis eller skjul RCoinUSA-vinduet</translation>
+        <source>Show or hide the HealthyWormCoin window</source>
+        <translation>Vis eller skjul HealthyWormCoin-vinduet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>RCoinUSA client</source>
-        <translation>RCoinUSA klient</translation>
+        <source>HealthyWormCoin client</source>
+        <translation>HealthyWormCoin klient</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to RCoinUSA network</source>
+        <source>%n active connection(s) to HealthyWormCoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -678,8 +678,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. RCoinUSA can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og RCoinUSA må derfor avslutte.</translation>
+        <source>A fatal error occured. HealthyWormCoin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og HealthyWormCoin må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -971,7 +971,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av RCoinUSAs</translation>
+        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av HealthyWormCoins</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
@@ -980,8 +980,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show RCoinUSA addresses in the transaction list</source>
-        <translation>Om RCoinUSA-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show HealthyWormCoin addresses in the transaction list</source>
+        <translation>Om HealthyWormCoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1048,8 +1048,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid RCoinUSA address.</source>
-        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig RCoinUSA-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HealthyWormCoin address.</source>
+        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig HealthyWormCoin-adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1091,8 +1091,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the RCoinUSA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk RCoinUSA klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the HealthyWormCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk HealthyWormCoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1102,7 +1102,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Koble til RCoinUSA sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
+        <translation>Koble til HealthyWormCoin sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1146,13 +1146,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start RCoinUSA on window system startup</source>
-        <translation>&amp;Start RCoinUSA ved oppstart av datamaskinen</translation>
+        <source>&amp;Start HealthyWormCoin on window system startup</source>
+        <translation>&amp;Start HealthyWormCoin ved oppstart av datamaskinen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start RCoinUSA after the computer is turned on</source>
-        <translation>Start RCoinUSA automatisk når datamaskinen blir slått på</translation>
+        <source>Automatically start HealthyWormCoin after the computer is turned on</source>
+        <translation>Start HealthyWormCoin automatisk når datamaskinen blir slått på</translation>
     </message>
 </context>
 <context>
@@ -1479,8 +1479,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>RCoinUSA (RCoinUSA) debug window</source>
-        <translation>RCoinUSA feilsøkingsvindu</translation>
+        <source>HealthyWormCoin (HealthyWormCoin) debug window</source>
+        <translation>HealthyWormCoin feilsøkingsvindu</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1571,8 +1571,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the RCoinUSA RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til RCoinUSA sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the HealthyWormCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til HealthyWormCoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
 </context>
 <context>
@@ -1766,7 +1766,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av RCoinUSAs</translation>
+        <translation>Bekreft sending av HealthyWormCoins</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1786,7 +1786,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Advarsel: Ugyldig RCoinUSA-adresse</translation>
+        <translation>Advarsel: Ugyldig HealthyWormCoin-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1805,8 +1805,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Angi en RCoinUSA-adresse</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Angi en HealthyWormCoin-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1894,8 +1894,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Angi en RCoinUSA-adresse</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Angi en HealthyWormCoin-adresse</translation>
     </message>
 </context>
 <context>
@@ -1959,8 +1959,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this RCoinUSA address</source>
-        <translation>Signer meldingen for å bevise at du eier denne RCoinUSA-adressen</translation>
+        <source>Sign the message to prove you own this HealthyWormCoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne HealthyWormCoin-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1995,8 +1995,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified RCoinUSA address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte RCoinUSA-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified HealthyWormCoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte HealthyWormCoin-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2021,8 +2021,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Angi en RCoinUSA-adresse</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Angi en HealthyWormCoin-adresse</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2580,18 +2580,18 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  RCoinUSA is probably already running.</source>
-        <translation>Ute av stand til å binde til port %d på denne datamaskinen. RCoinUSA kjører sannsynligvis allerede.</translation>
+        <source>Unable to bind to port %d on this computer.  HealthyWormCoin is probably already running.</source>
+        <translation>Ute av stand til å binde til port %d på denne datamaskinen. HealthyWormCoin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>RCoinUSA version</source>
-        <translation>RCoinUSA versjon</translation>
+        <source>HealthyWormCoin version</source>
+        <translation>HealthyWormCoin versjon</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or RCoinUSAd</source>
-        <translation>Send kommando til -server eller RCoinUSAd</translation>
+        <source>Send command to -server or HealthyWormCoind</source>
+        <translation>Send kommando til -server eller HealthyWormCoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2610,13 +2610,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: RCoinUSA.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: RCoinUSA.conf)</translation>
+        <source>Specify configuration file (default: HealthyWormCoin.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: HealthyWormCoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: RCoinUSAd.pid)</source>
-        <translation>Angi pid-fil (standardverdi: RCoinUSAd.pid)</translation>
+        <source>Specify pid file (default: HealthyWormCoind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: HealthyWormCoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2871,30 +2871,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  RCoinUSA is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. RCoinUSA kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  HealthyWormCoin is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. HealthyWormCoin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>RCoinUSA</source>
-        <translation>RCoinUSA</translation>
+        <source>HealthyWormCoin</source>
+        <translation>HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of RCoinUSA</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av RCoinUSA</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HealthyWormCoin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart RCoinUSA to complete</source>
-        <translation>Lommeboken måtte skrives om: start RCoinUSA på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart HealthyWormCoin to complete</source>
+        <translation>Lommeboken måtte skrives om: start HealthyWormCoin på nytt for å fullføre</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=RCoinUSArpc
+rpcuser=HealthyWormCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2903,8 +2903,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong RCoinUSA will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke RCoinUSA fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke HealthyWormCoin fungere skikkelig.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

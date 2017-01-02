@@ -1,4 +1,4 @@
-Copyright (c) 2016-2017 The RCoinUSA developers
+Copyright (c) 2016-2017 The HealthyWormCoin developers
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying file
 license.txt or http://www.opensource.org/licenses/mit-license.php. This
@@ -9,7 +9,7 @@ Thomas Bernard.
 
 
 Mac OS X Mavericks build instructions
-How to build RCoinUSAd and RCoinUSA-Qt on 10.9
+How to build HealthyWormCoind and HealthyWormCoin-Qt on 10.9
 
 
 Prerequisites
@@ -72,18 +72,18 @@ sudo cp -r boost_1_55_0/boost/ /usr/include/boost/
 
 9.  Clone the github tree to get the source code
 
-git clone https://github.com/RCoinUSA/RCoinUSA.git
+git clone https://github.com/HealthyWormCoin/HealthyWormCoin.git
 
 
-Building RCoinUSAd
+Building HealthyWormCoind
 
 1.  Run the makefile
 
-cd RCoinUSA/src/
+cd HealthyWormCoin/src/
 make -f makefile.osx RELEASE=true 64BIT=true
 
 
-Building RCoinUSA-Qt.app
+Building HealthyWormCoin-Qt.app
 
 You cannot use Qt 4.8.6 if you want to deploy to other systems
 http://qt-project.org/forums/viewthread/41925
@@ -95,13 +95,13 @@ http://download.qt-project.org/archive/qt/4.8/4.8.5/qt-mac-opensource-4.8.5.dmg
 
 3.  Use Qt Creator to build the project
 
-Double-click RCoinUSA/bitcoin-qt.pro to open Qt-Creator
+Double-click HealthyWormCoin/bitcoin-qt.pro to open Qt-Creator
 Click the Configure Project button
 Click on the monitor icon on the left bar above Debug and change it to Release
 On the top menu, click Build and Build Project "bitcoin-qt"
 
 
-Deploying RCoinUSA-Qt.app
+Deploying HealthyWormCoin-Qt.app
 
 Deploying your app is needed to run it on non-development systems
 
@@ -110,16 +110,16 @@ Deploying your app is needed to run it on non-development systems
 sudo ln -s /opt/local/lib /opt/local/lib/lib
 sudo ln -s /opt/local/lib/db48/libdb_cxx-4.8.dylib /opt/local/lib/libdb_cxx-4.8.dylib
 
-2.  Copy RCoinUSA-Qt.app and run macdeployqt to bundle required libraries
+2.  Copy HealthyWormCoin-Qt.app and run macdeployqt to bundle required libraries
 
 mkdir deploy
-cp -r build-bitcoin-qt-Desktop-Release/RCoinUSA-Qt.app/ deploy/RCoinUSA-Qt.app/
-sudo macdeployqt deploy/RCoinUSA-Qt.app/
+cp -r build-bitcoin-qt-Desktop-Release/HealthyWormCoin-Qt.app/ deploy/HealthyWormCoin-Qt.app/
+sudo macdeployqt deploy/HealthyWormCoin-Qt.app/
 
 3.  Fix a dependency path
 
-install_name_tool -change "/opt/local/lib/db48/libdb_cxx-4.8.dylib" "@executable_path/../Frameworks/libdb_cxx-4.8.dylib" deploy/RCoinUSA-Qt.app/Contents/MacOS/RCoinUSA-Qt
+install_name_tool -change "/opt/local/lib/db48/libdb_cxx-4.8.dylib" "@executable_path/../Frameworks/libdb_cxx-4.8.dylib" deploy/HealthyWormCoin-Qt.app/Contents/MacOS/HealthyWormCoin-Qt
 
-4.  Compress RCoinUSA-Qt.app into a zip
+4.  Compress HealthyWormCoin-Qt.app into a zip
 
-Right-click on RCoinUSA-Qt.app and click Compress
+Right-click on HealthyWormCoin-Qt.app and click Compress

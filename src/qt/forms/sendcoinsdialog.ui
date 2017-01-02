@@ -141,7 +141,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="horizontalSpaceRCoinUSAControl">
+           <spacer name="horizontalSpaceHealthyWormCoinControl">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -598,7 +598,7 @@
          </layout>
         </item>
         <item>
-         <spacer name="verticalSpaceRCoinUSAControl">
+         <spacer name="verticalSpaceHealthyWormCoinControl">
           <property name="orientation">
            <enum>Qt::Vertical</enum>
           </property>

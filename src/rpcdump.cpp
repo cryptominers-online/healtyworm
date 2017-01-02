@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 Bitcoin Developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,7 +44,7 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "importprivkey <RCoinUSAprivkey> [label]\n"
+            "importprivkey <HealthyWormCoinprivkey> [label]\n"
             "Adds a private key (as returned by dumpprivkey) to your wallet.");
 
     string strSecret = params[0].get_str();
@@ -57,7 +57,7 @@ Value importprivkey(const Array& params, bool fHelp)
     if (!fGood) throw JSONRPCError(-5,"Invalid private key");
     if (pwalletMain->IsLocked())
         throw JSONRPCError(-13, "Error: Please enter the wallet passphrase with walletpassphrase first.");
-    if (fWalletUnlockMintOnly) // RCoinUSA: no importprivkey in mint-only mode
+    if (fWalletUnlockMintOnly) // HealthyWormCoin: no importprivkey in mint-only mode
         throw JSONRPCError(-102, "Wallet is unlocked for minting only.");
 
     CKey key;
@@ -87,16 +87,16 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey <RCoinUSAaddress>\n"
-            "Reveals the private key corresponding to <RCoinUSAaddress>.");
+            "dumpprivkey <HealthyWormCoinaddress>\n"
+            "Reveals the private key corresponding to <HealthyWormCoinaddress>.");
 
     string strAddress = params[0].get_str();
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(-5, "Invalid RCoinUSA address");
+        throw JSONRPCError(-5, "Invalid HealthyWormCoin address");
     if (pwalletMain->IsLocked())
         throw JSONRPCError(-13, "Error: Please enter the wallet passphrase with walletpassphrase first.");
-    if (fWalletUnlockMintOnly) // RCoinUSA: no dumpprivkey in mint-only mode
+    if (fWalletUnlockMintOnly) // HealthyWormCoin: no dumpprivkey in mint-only mode
         throw JSONRPCError(-102, "Wallet is unlocked for minting only.");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))

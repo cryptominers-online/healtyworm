@@ -1,9 +1,9 @@
 /*
- * Qt4 RCoinUSA GUI.
+ * Qt4 HealthyWormCoin GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The RCoinUSA Developers 2016-2017
+ * The HealthyWormCoin Developers 2016-2017
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -74,9 +74,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("RCoin USA Wallet"));
+    setWindowTitle(tr("HealthyWormCoin Wallet"));
 #ifndef Q_WS_MAC
-    setWindowIcon(QIcon(":icons/RCoinUSA_icon"));
+    setWindowIcon(QIcon(":icons/HealthyWormCoin_icon"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -222,7 +222,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a RCoinUSA address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a HealthyWormCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -258,17 +258,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/RCoinUSA_tooltip"), tr("&About RCoinUSA"), this);
-    aboutAction->setToolTip(tr("Show information about RCoinUSA"));
+    aboutAction = new QAction(QIcon(":/icons/HealthyWormCoin_tooltip"), tr("&About HealthyWormCoin"), this);
+    aboutAction->setToolTip(tr("Show information about HealthyWormCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for RCoinUSA"));
+    optionsAction->setToolTip(tr("Modify configuration options for HealthyWormCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/RCoinUSA_tooltip"), tr("Show/Hide &RCoinUSA"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the RCoinUSA window"));
+    toggleHideAction = new QAction(QIcon(":/icons/HealthyWormCoin_tooltip"), tr("Show/Hide &HealthyWormCoin"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the HealthyWormCoin window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet"), this);
@@ -359,14 +359,14 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_WS_MAC
-            setWindowIcon(QIcon(":icons/RCoinUSA_icon"));
+            setWindowIcon(QIcon(":icons/HealthyWormCoin_icon"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/RCoinUSA_icon"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/HealthyWormCoin_icon"));
 #endif
             if(trayIcon)
             {
                 trayIcon->setToolTip(title_testnet);
-                trayIcon->setIcon(QIcon(":/icons/RCoinUSA_tooltip"));
+                trayIcon->setIcon(QIcon(":/icons/HealthyWormCoin_tooltip"));
             }
         }
 
@@ -422,8 +422,8 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("RCoinUSA client"));
-    trayIcon->setIcon(QIcon(":/icons/RCoinUSA_tooltip"));
+    trayIcon->setToolTip(tr("HealthyWormCoin client"));
+    trayIcon->setIcon(QIcon(":/icons/HealthyWormCoin_tooltip"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
     trayIcon->show();
@@ -515,7 +515,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to RCoinUSA network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to HealthyWormCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

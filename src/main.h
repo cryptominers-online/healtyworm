@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -28,22 +28,22 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
-static const unsigned int MAX_BLOCK_SIZE = 100000;
+static const unsigned int MAX_BLOCK_SIZE = 10000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
-static const int LAST_POW_BLOCK = 10000;
+static const int LAST_POW_BLOCK = 999999999;
 static const int64 MIN_TX_FEE = 0;
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64 MAX_MONEY = 3000000000 * COIN;
+static const int64 MAX_MONEY = 201700000 * COIN;
 static const int64 MAX_MINT_PROOF_OF_WORK = 1000000000000 * COIN;
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int COINBASE_MATURITY_PPC = 60;
 static const int LOCKTIME_THRESHOLD = 500000000;
 static const int STAKE_START_TIME = 1408636800;
-static const int STAKE_TARGET_SPACING = 150;
-static const int STAKE_MIN_AGE = 60 * 60 * 24;
+static const int STAKE_TARGET_SPACING = 217;
+static const int STAKE_MIN_AGE = 60 * 17;
 static const int STAKE_MAX_AGE = 60 * 60 * 24 * 365;
 
 #ifdef USE_UPNP
@@ -528,7 +528,7 @@ public:
 
     bool IsCoinStake() const
     {
-        // RCoinUSA: the coin stake transaction is marked with the first output empty
+        // HealthyWormCoin: the coin stake transaction is marked with the first output empty
         return (vin.size() > 0 && (!vin[0].prevout.IsNull()) && vout.size() >= 2 && vout[0].IsEmpty());
     }
 
@@ -702,7 +702,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // RCoinUSA: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // HealthyWormCoin: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -846,7 +846,7 @@ public:
     // network and disk
     std::vector<CTransaction> vtx;
 
-    // RCoinUSA: block signature - signed by coin base txout[0]'s owner
+    // HealthyWormCoin: block signature - signed by coin base txout[0]'s owner
     std::vector<unsigned char> vchBlockSig;
 
     // memory only
@@ -915,7 +915,7 @@ public:
 
     void UpdateTime(const CBlockIndex* pindexPrev);
 
-    // RCoinUSA: two types of block: proof-of-work or proof-of-stake
+    // HealthyWormCoin: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -931,7 +931,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // RCoinUSA: get max transaction timestamp
+    // HealthyWormCoin: get max transaction timestamp
     int64 GetMaxTransactionTime() const
     {
         int64 maxTransactionTime = 0;
@@ -1082,10 +1082,10 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos);
     bool CheckBlock() const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64& nCoinAge) const; // RCoinUSA: calculate total coin age spent in block
+    bool GetCoinAge(uint64& nCoinAge) const; // HealthyWormCoin: calculate total coin age spent in block
     bool SignBlock(const CKeyStore& keystore);
     bool CheckBlockSignature() const;
-    unsigned int GetStakeEntropyBit() const; // RCoinUSA: entropy bit for stake modifier if chosen by modifier
+    unsigned int GetStakeEntropyBit() const; // HealthyWormCoin: entropy bit for stake modifier if chosen by modifier
 
 private:
     bool SetBestChainInner(CTxDB& txdb, CBlockIndex *pindexNew);
@@ -1111,12 +1111,12 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    CBigNum bnChainTrust; // RCoinUSA: trust score of block chain
+    CBigNum bnChainTrust; // HealthyWormCoin: trust score of block chain
     int nHeight;
     int64 nMint;
     int64 nMoneySupply;
 
-    unsigned int nFlags;  // RCoinUSA: block index flags
+    unsigned int nFlags;  // HealthyWormCoin: block index flags
     enum  
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block

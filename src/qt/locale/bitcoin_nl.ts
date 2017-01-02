@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About RCoinUSA</source>
-        <translation>Over RCoinUSA</translation>
+        <source>About HealthyWormCoin</source>
+        <translation>Over HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2016-2017 The RCoinUSA developers</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2016-2017 The HealthyWormCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2016-2017 The RCoinUSA developers</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2016-2017 The HealthyWormCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in h
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your RCoinUSA addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn je RCoinUSA adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
+        <source>These are your HealthyWormCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn je HealthyWormCoin adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in h
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RCoinUSAS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HealthyWormCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WAARSCHUWING: Indien je de portemonnee versleutelt en je wachtwoordzin verliest, dan verlies je &lt;b&gt; AL JE RCoinUSAS&lt;/b&gt;! 
+        <translation>WAARSCHUWING: Indien je de portemonnee versleutelt en je wachtwoordzin verliest, dan verlies je &lt;b&gt; AL JE HealthyWormCoinS&lt;/b&gt;! 
 Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>RCoinUSA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RCoinUSAs from being stolen by malware infecting your computer.</source>
-        <translation>RCoinUSA sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je RCoinUSAs niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
+        <source>HealthyWormCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HealthyWormCoins from being stolen by malware infecting your computer.</source>
+        <translation>HealthyWormCoin sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je HealthyWormCoins niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about RCoinUSA</source>
-        <translation>Toon informatie over RCoinUSA</translation>
+        <source>Show information about HealthyWormCoin</source>
+        <translation>Toon informatie over HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>RCoinUSA Wallet</source>
-        <translation>RCoinUSA portemonnee</translation>
+        <source>HealthyWormCoin Wallet</source>
+        <translation>HealthyWormCoin portemonnee</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a RCoinUSA address</source>
-        <translation>Zend munten naar een RCoinUSA adres</translation>
+        <source>Send coins to a HealthyWormCoin address</source>
+        <translation>Zend munten naar een HealthyWormCoin adres</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About RCoinUSA</source>
-        <translation>Over RCoinUSA</translation>
+        <source>&amp;About HealthyWormCoin</source>
+        <translation>Over HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for RCoinUSA</source>
-        <translation>Wijzig configuratie opties voor RCoinUSA</translation>
+        <source>Modify configuration options for HealthyWormCoin</source>
+        <translation>Wijzig configuratie opties voor HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;RCoinUSA</source>
-        <translation>Toon/Verberg &amp;RCoinUSA</translation>
+        <source>Show/Hide &amp;HealthyWormCoin</source>
+        <translation>Toon/Verberg &amp;HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the RCoinUSA window</source>
-        <translation>Toon of verberg het RCoinUSA scherm</translation>
+        <source>Show or hide the HealthyWormCoin window</source>
+        <translation>Toon of verberg het HealthyWormCoin scherm</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>RCoinUSA client</source>
-        <translation>RCoinUSA client</translation>
+        <source>HealthyWormCoin client</source>
+        <translation>HealthyWormCoin client</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to RCoinUSA network</source>
+        <source>%n active connection(s) to HealthyWormCoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -678,8 +678,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. RCoinUSA can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft plaatsgevonden. RCoinUSA kan niet langer veilig doorgaan en zal afsluiten.</translation>
+        <source>A fatal error occured. HealthyWormCoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout heeft plaatsgevonden. HealthyWormCoin kan niet langer veilig doorgaan en zal afsluiten.</translation>
     </message>
 </context>
 <context>
@@ -976,8 +976,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show RCoinUSA addresses in the transaction list</source>
-        <translation>Toon RCoinUSAadressen in transactielijst</translation>
+        <source>Whether to show HealthyWormCoin addresses in the transaction list</source>
+        <translation>Toon HealthyWormCoinadressen in transactielijst</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1044,8 +1044,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid RCoinUSA address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig RCoinUSA adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HealthyWormCoin address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig HealthyWormCoin adres.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1087,8 +1087,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the RCoinUSA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open automatisch de RCoinUSA client poort op de router. Dit werkt alleen indien je router PnP ondersteund en het geactiveerd is.</translation>
+        <source>Automatically open the HealthyWormCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open automatisch de HealthyWormCoin client poort op de router. Dit werkt alleen indien je router PnP ondersteund en het geactiveerd is.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1098,7 +1098,7 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Verbind met het RCoinUSA-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
+        <translation>Verbind met het HealthyWormCoin-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1142,13 +1142,13 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start RCoinUSA on window system startup</source>
-        <translation>Start RCoinUSA als windows wordt geladen</translation>
+        <source>&amp;Start HealthyWormCoin on window system startup</source>
+        <translation>Start HealthyWormCoin als windows wordt geladen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start RCoinUSA after the computer is turned on</source>
-        <translation>Start RCoinUSA automatisch nadat de computer is ingeschakeld</translation>
+        <source>Automatically start HealthyWormCoin after the computer is turned on</source>
+        <translation>Start HealthyWormCoin automatisch nadat de computer is ingeschakeld</translation>
     </message>
 </context>
 <context>
@@ -1475,8 +1475,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>RCoinUSA (RCoinUSA) debug window</source>
-        <translation>RCoinUSA (RCoinUSA) debug scherm</translation>
+        <source>HealthyWormCoin (HealthyWormCoin) debug window</source>
+        <translation>HealthyWormCoin (HealthyWormCoin) debug scherm</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1567,8 +1567,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the RCoinUSA RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Welkom bij de RCoinUSA RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
+        <source>Welcome to the HealthyWormCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Welkom bij de HealthyWormCoin RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
     </message>
 </context>
 <context>
@@ -1782,7 +1782,7 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig RCoinUSA adres</translation>
+        <translation>Waarschuwing: Ongeldig HealthyWormCoin adres</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1801,8 +1801,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Voer een RCoinUSA adres in</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Voer een HealthyWormCoin adres in</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1890,8 +1890,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Voer een RCoinUSA adres in</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Voer een HealthyWormCoin adres in</translation>
     </message>
 </context>
 <context>
@@ -1955,8 +1955,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this RCoinUSA address</source>
-        <translation>Bewijs dat je dit RCoinUSA adres bezit door het te ondertekenen </translation>
+        <source>Sign the message to prove you own this HealthyWormCoin address</source>
+        <translation>Bewijs dat je dit HealthyWormCoin adres bezit door het te ondertekenen </translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1991,8 +1991,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified RCoinUSA address</source>
-        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde RCoinUSA adres</translation>
+        <source>Verify the message to ensure it was signed with the specified HealthyWormCoin address</source>
+        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde HealthyWormCoin adres</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2017,8 +2017,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Voer een RCoinUSA adres in</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Voer een HealthyWormCoin adres in</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2576,18 +2576,18 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  RCoinUSA is probably already running.</source>
-        <translation>Onmogelijk om poort %d te verbinden op deze computer. RCoinUSA is mogelijk al eerder opgestart.</translation>
+        <source>Unable to bind to port %d on this computer.  HealthyWormCoin is probably already running.</source>
+        <translation>Onmogelijk om poort %d te verbinden op deze computer. HealthyWormCoin is mogelijk al eerder opgestart.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>RCoinUSA version</source>
-        <translation>RCoinUSA versie</translation>
+        <source>HealthyWormCoin version</source>
+        <translation>HealthyWormCoin versie</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or RCoinUSAd</source>
-        <translation>Zend commando naar -server of RCoinUSAd</translation>
+        <source>Send command to -server or HealthyWormCoind</source>
+        <translation>Zend commando naar -server of HealthyWormCoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2609,13 +2609,13 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: RCoinUSA.conf)</source>
-        <translation>Configuratiebestand specificeren (standaard: RCoinUSA.conf)</translation>
+        <source>Specify configuration file (default: HealthyWormCoin.conf)</source>
+        <translation>Configuratiebestand specificeren (standaard: HealthyWormCoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: RCoinUSAd.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: RCoinUSAd.pid)
+        <source>Specify pid file (default: HealthyWormCoind.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: HealthyWormCoind.pid)
 </translation>
     </message>
     <message>
@@ -2890,30 +2890,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  RCoinUSA is probably already running.</source>
-        <translation>Blokkeren van data folder %s is niet gelukt. RCoinUSA is mogelijk al opgestart.</translation>
+        <source>Cannot obtain a lock on data directory %s.  HealthyWormCoin is probably already running.</source>
+        <translation>Blokkeren van data folder %s is niet gelukt. HealthyWormCoin is mogelijk al opgestart.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>RCoinUSA</source>
-        <translation>RCoinUSA</translation>
+        <source>HealthyWormCoin</source>
+        <translation>HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of RCoinUSA</source>
-        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van RCoinUSA</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HealthyWormCoin</source>
+        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart RCoinUSA to complete</source>
-        <translation>Portemonnee dient opnieuw bewerkt te worden: start RCoinUSA opnieuw op om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart HealthyWormCoin to complete</source>
+        <translation>Portemonnee dient opnieuw bewerkt te worden: start HealthyWormCoin opnieuw op om te voltooien</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=RCoinUSArpc
+rpcuser=HealthyWormCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2922,8 +2922,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong RCoinUSA will not work properly.</source>
-        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal RCoinUSA niet goed werken</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.</source>
+        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal HealthyWormCoin niet goed werken</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

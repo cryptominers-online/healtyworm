@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2016-2017 The RCoinUSA developers
+// Copyright (c) 2016-2017 The HealthyWormCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,15 +26,7 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0, hashGenesisBlockOfficial )
-        ( 1, uint256("0x0000000000ee2eb0d8c08a1b7b53573642855cfbdeca50299553f150d397f2aa"))
-        ( 2, uint256("0x0000000000ca2a57acb9c87b043c60cd189a243a4eec826046833bf6c288e4c9"))
-        ( 3, uint256("0x000000009a14b61c3e88e087a9ebc53b9cc6e5c15f020afadbdffd98c4e378a0"))
-        ( 4, uint256("0x0000000041d188e626ae33a4bb39eaff8aa9e6c414556fe8ad4adbaf352b90be"))
-        ( 5, uint256("0x0000000044cff5be1e923134a82e86c17ac0940448739be39ecf1af40cd76ed3"))
-        ( 6, uint256("0x00000000c6097c00e6e04e7cd18e124b5b640896e68cb554db59b22afc907353"))
-        ( 7, uint256("0x00000000669edd21f80e18ca8f4f0e28b18ea513d32fcb1d44f13cdd29d5f44a"))
-        ( 8, uint256("0x00000000491c11a204ce93c2af8af4f5c710350138678c515d3de84f8b0ab0a4"))
-        ( 9, uint256("0x00000000f1ec45ea779ab76919262f5f4657fa5afa91b228c8dcfb28ac8511d2"))
+        ( 1000, uint256("0x0000000002c20db7f73d0596ff72a0ff56c21c7abf543025f74819b964182591"))
         ;
 
     bool CheckHardened(int nHeight, const uint256& hash)
@@ -72,7 +64,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // RCoinUSA: synchronized checkpoint (centrally broadcasted)
+    // HealthyWormCoin: synchronized checkpoint (centrally broadcasted)
     uint256 hashSyncCheckpoint = 0;
     uint256 hashPendingCheckpoint = 0;
     CSyncCheckpoint checkpointMessage;
@@ -80,7 +72,7 @@ namespace Checkpoints
     uint256 hashInvalidCheckpoint = 0;
     CCriticalSection cs_hashSyncCheckpoint;
 
-    // RCoinUSA: get last synchronized checkpoint
+    // HealthyWormCoin: get last synchronized checkpoint
     CBlockIndex* GetLastSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -91,7 +83,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // RCoinUSA: only descendant of current sync-checkpoint is allowed
+    // HealthyWormCoin: only descendant of current sync-checkpoint is allowed
     bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
     {
         if (!mapBlockIndex.count(hashSyncCheckpoint))
@@ -250,7 +242,7 @@ namespace Checkpoints
         return false;
     }
 
-    // RCoinUSA: reset synchronized checkpoint to last hardened checkpoint
+    // HealthyWormCoin: reset synchronized checkpoint to last hardened checkpoint
     bool ResetSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -372,12 +364,12 @@ namespace Checkpoints
     }
 }
 
-// RCoinUSA: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04d62d7fa3de942576f680022b3ddcc372d2b726c35c487edb14c9b7be69be5932f3348ca5416b8e3e6d3dbdd00155ee89d4598747d4e14f0c440a70a221e3c4b8";
+// HealthyWormCoin: sync-checkpoint master key
+const std::string CSyncCheckpoint::strMasterPubKey = "04fa011415aa40cc68139d198d6ff0cba8286f875df4b172b3d6c55d992da82df7496b62f36c2daf39ab1509bcfdf7ade95c9825423521d52a06ea3e4e930e602d";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
-// RCoinUSA: verify signature of sync-checkpoint message
+// HealthyWormCoin: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
     CKey key;
@@ -392,7 +384,7 @@ bool CSyncCheckpoint::CheckSignature()
     return true;
 }
 
-// RCoinUSA: process synchronized checkpoint
+// HealthyWormCoin: process synchronized checkpoint
 bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
 {
     if (!CheckSignature())

@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About RCoinUSA</source>
-        <translation>Tentang RCoinUSA</translation>
+        <source>About HealthyWormCoin</source>
+        <translation>Tentang HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2016-2017 The RCoinUSA developers</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2016-2017 The HealthyWormCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2016-2017 The RCoinUSA developers</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2016-2017 The HealthyWormCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Produk ini berisi software yang dikembangkan oleh OpenSSL Project untuk digunaka
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your RCoinUSA addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ini adalah alamat RCoinUSA Anda untuk menerima pembayaran. Anda mungkin ingin memberikan yang berbeda untuk masing-masing pengirim sehingga Anda dapat melacak siapa yang membayar Anda.</translation>
+        <source>These are your HealthyWormCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ini adalah alamat HealthyWormCoin Anda untuk menerima pembayaran. Anda mungkin ingin memberikan yang berbeda untuk masing-masing pengirim sehingga Anda dapat melacak siapa yang membayar Anda.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ Produk ini berisi software yang dikembangkan oleh OpenSSL Project untuk digunaka
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RCoinUSAS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HealthyWormCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>PERINGATAN: Jika Anda mengenkripsi dompet Anda dan kehilangan passphrase, Anda akan &lt;b&gt;KEHILANGAN SEMUA RCoinUSAS ANDA&lt;/b&gt;! 
+        <translation>PERINGATAN: Jika Anda mengenkripsi dompet Anda dan kehilangan passphrase, Anda akan &lt;b&gt;KEHILANGAN SEMUA HealthyWormCoinS ANDA&lt;/b&gt;! 
 Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>RCoinUSA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RCoinUSAs from being stolen by malware infecting your computer.</source>
-        <translation>RCoinUSA akan menutup sekarang untuk menyelesaikan proses enkripsi. Ingat bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi RCoinUSAs Anda dari yang dicuri oleh malware menginfeksi komputer Anda.</translation>
+        <source>HealthyWormCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HealthyWormCoins from being stolen by malware infecting your computer.</source>
+        <translation>HealthyWormCoin akan menutup sekarang untuk menyelesaikan proses enkripsi. Ingat bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi HealthyWormCoins Anda dari yang dicuri oleh malware menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about RCoinUSA</source>
-        <translation>Tampilkan informasi tentang RCoinUSA</translation>
+        <source>Show information about HealthyWormCoin</source>
+        <translation>Tampilkan informasi tentang HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>RCoinUSA Wallet</source>
-        <translation>Dompet RCoinUSA</translation>
+        <source>HealthyWormCoin Wallet</source>
+        <translation>Dompet HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a RCoinUSA address</source>
-        <translation>Kirim koin ke alamat RCoinUSA</translation>
+        <source>Send coins to a HealthyWormCoin address</source>
+        <translation>Kirim koin ke alamat HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About RCoinUSA</source>
-        <translation>Tentang RCoinUSA</translation>
+        <source>&amp;About HealthyWormCoin</source>
+        <translation>Tentang HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for RCoinUSA</source>
-        <translation>Memodifikasi pilihan konfigurasi untuk RCoinUSA</translation>
+        <source>Modify configuration options for HealthyWormCoin</source>
+        <translation>Memodifikasi pilihan konfigurasi untuk HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;RCoinUSA</source>
-        <translation>Tampilkan/Sembunyikan RCoinUSA</translation>
+        <source>Show/Hide &amp;HealthyWormCoin</source>
+        <translation>Tampilkan/Sembunyikan HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the RCoinUSA window</source>
-        <translation>Tampilkan atau sembunyikan jendela RCoinUSA</translation>
+        <source>Show or hide the HealthyWormCoin window</source>
+        <translation>Tampilkan atau sembunyikan jendela HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>RCoinUSA client</source>
-        <translation>Klien RCoinUSA</translation>
+        <source>HealthyWormCoin client</source>
+        <translation>Klien HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to RCoinUSA network</source>
+        <source>%n active connection(s) to HealthyWormCoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
@@ -671,8 +671,8 @@ Alamat: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. RCoinUSA can no longer continue safely and will quit.</source>
-        <translation>Sebuah error fatal terjadi. RCoinUSA tidak bisa lagi melanjutkan dengan aman dan akan berhenti.</translation>
+        <source>A fatal error occured. HealthyWormCoin can no longer continue safely and will quit.</source>
+        <translation>Sebuah error fatal terjadi. HealthyWormCoin tidak bisa lagi melanjutkan dengan aman dan akan berhenti.</translation>
     </message>
 </context>
 <context>
@@ -970,8 +970,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show RCoinUSA addresses in the transaction list</source>
-        <translation>Apakah menampilkan alamat RCoinUSA dalam daftar transaksi</translation>
+        <source>Whether to show HealthyWormCoin addresses in the transaction list</source>
+        <translation>Apakah menampilkan alamat HealthyWormCoin dalam daftar transaksi</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1038,8 +1038,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid RCoinUSA address.</source>
-        <translation>Alamat yang di masukkan &quot;%1&quot; tidak berlaku di alamat RCoinUSA</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HealthyWormCoin address.</source>
+        <translation>Alamat yang di masukkan &quot;%1&quot; tidak berlaku di alamat HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1081,8 +1081,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the RCoinUSA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Secara otomatis membuka port klien RCoinUSA pada router. Ini hanya bekerja ketika router Anda mendukung UPnP dan diaktifkan.</translation>
+        <source>Automatically open the HealthyWormCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Secara otomatis membuka port klien HealthyWormCoin pada router. Ini hanya bekerja ketika router Anda mendukung UPnP dan diaktifkan.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1136,13 +1136,13 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start RCoinUSA on window system startup</source>
-        <translation>Mulai RCoinUSA pada sistem jendela startup</translation>
+        <source>&amp;Start HealthyWormCoin on window system startup</source>
+        <translation>Mulai HealthyWormCoin pada sistem jendela startup</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start RCoinUSA after the computer is turned on</source>
-        <translation>Otomatis mulai RCoinUSA setelah komputer dihidupkan</translation>
+        <source>Automatically start HealthyWormCoin after the computer is turned on</source>
+        <translation>Otomatis mulai HealthyWormCoin setelah komputer dihidupkan</translation>
     </message>
 </context>
 <context>
@@ -1469,8 +1469,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>RCoinUSA (RCoinUSA) debug window</source>
-        <translation>RCoinUSA (RCoinUSA) jendela debug</translation>
+        <source>HealthyWormCoin (HealthyWormCoin) debug window</source>
+        <translation>HealthyWormCoin (HealthyWormCoin) jendela debug</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1561,8 +1561,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the RCoinUSA RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Selamat datang di konsol RCoinUSA RPC. &lt;br&gt;Gunakan panah atas dan bawah untuk menavigasi sejarah, dan &lt;b&gt;Ctrl-L&lt;/b&gt; untuk menghapus layar. &lt;br&gt;Type &lt;b&gt;help&lt;/b&gt;  untuk overview command yang tersedia.</translation>
+        <source>Welcome to the HealthyWormCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Selamat datang di konsol HealthyWormCoin RPC. &lt;br&gt;Gunakan panah atas dan bawah untuk menavigasi sejarah, dan &lt;b&gt;Ctrl-L&lt;/b&gt; untuk menghapus layar. &lt;br&gt;Type &lt;b&gt;help&lt;/b&gt;  untuk overview command yang tersedia.</translation>
     </message>
 </context>
 <context>
@@ -1795,8 +1795,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Masukkan alamat RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Masukkan alamat HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1884,8 +1884,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Masukkan alamat RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Masukkan alamat HealthyWormCoin</translation>
     </message>
 </context>
 <context>
@@ -1949,8 +1949,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this RCoinUSA address</source>
-        <translation>Masuk pesan untuk membuktikan bahwa Anda sudah memiliki alamat RCoinUSA ini</translation>
+        <source>Sign the message to prove you own this HealthyWormCoin address</source>
+        <translation>Masuk pesan untuk membuktikan bahwa Anda sudah memiliki alamat HealthyWormCoin ini</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1985,8 +1985,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified RCoinUSA address</source>
-        <translation>Verifikasi pesan untuk memastikan ditandatangani dengan alamati RCoinUSA yang ditentukan</translation>
+        <source>Verify the message to ensure it was signed with the specified HealthyWormCoin address</source>
+        <translation>Verifikasi pesan untuk memastikan ditandatangani dengan alamati HealthyWormCoin yang ditentukan</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2011,8 +2011,8 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Masukkan alamat RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Masukkan alamat HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2568,18 +2568,18 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  RCoinUSA is probably already running.</source>
-        <translation>Tidak dapat mengikat ke port %d di komputer ini. RCoinUSA mungkin sudah berjalan.</translation>
+        <source>Unable to bind to port %d on this computer.  HealthyWormCoin is probably already running.</source>
+        <translation>Tidak dapat mengikat ke port %d di komputer ini. HealthyWormCoin mungkin sudah berjalan.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>RCoinUSA version</source>
-        <translation>Versi RCoinUSA</translation>
+        <source>HealthyWormCoin version</source>
+        <translation>Versi HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or RCoinUSAd</source>
-        <translation>Kirim command ke -server atau RCoinUSAd</translation>
+        <source>Send command to -server or HealthyWormCoind</source>
+        <translation>Kirim command ke -server atau HealthyWormCoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2598,13 +2598,13 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: RCoinUSA.conf)</source>
-        <translation>File konfigurasi ditentukan (default: RCoinUSA.conf)</translation>
+        <source>Specify configuration file (default: HealthyWormCoin.conf)</source>
+        <translation>File konfigurasi ditentukan (default: HealthyWormCoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: RCoinUSAd.pid)</source>
-        <translation>Menentukan file pid (default: RCoinUSAd.pid)</translation>
+        <source>Specify pid file (default: HealthyWormCoind.pid)</source>
+        <translation>Menentukan file pid (default: HealthyWormCoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2859,30 +2859,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  RCoinUSA is probably already running.</source>
-        <translation>Tidak dapat memperoleh kunci pada direktori data %s. RCoinUSA mungkin sudah berjalan.</translation>
+        <source>Cannot obtain a lock on data directory %s.  HealthyWormCoin is probably already running.</source>
+        <translation>Tidak dapat memperoleh kunci pada direktori data %s. HealthyWormCoin mungkin sudah berjalan.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>RCoinUSA</source>
-        <translation>RCoinUSA</translation>
+        <source>HealthyWormCoin</source>
+        <translation>HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of RCoinUSA</source>
-        <translation>Error loading wallet.dat: Dompet memerlukan versi terbaru dari RCoinUSA</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HealthyWormCoin</source>
+        <translation>Error loading wallet.dat: Dompet memerlukan versi terbaru dari HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart RCoinUSA to complete</source>
-        <translation>Dompet perlu ditulis ulang: me-restart RCoinUSA untuk menyelesaikan</translation>
+        <source>Wallet needed to be rewritten: restart HealthyWormCoin to complete</source>
+        <translation>Dompet perlu ditulis ulang: me-restart HealthyWormCoin untuk menyelesaikan</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=RCoinUSArpc
+rpcuser=HealthyWormCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2891,8 +2891,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong RCoinUSA will not work properly.</source>
-        <translation>Peringatan: Harap periksa tanggal komputer Anda dan waktu sudah benar. Jika jam Anda salah RCoinUSA tidak akan berfungsi.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.</source>
+        <translation>Peringatan: Harap periksa tanggal komputer Anda dan waktu sudah benar. Jika jam Anda salah HealthyWormCoin tidak akan berfungsi.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

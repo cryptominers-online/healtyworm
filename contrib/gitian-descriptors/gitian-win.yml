@@ -1,5 +1,5 @@
 ---
-name: "RCoinUSA"
+name: "HealthyWormCoin"
 suites:
 - "precise"
 architectures:
@@ -14,15 +14,15 @@ packages:
 
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/RCoinUSA/RCoinUSA.git"
-  "dir": "RCoinUSA"
+- "url": "https://github.com/HealthyWormCoin/HealthyWormCoin.git"
+  "dir": "HealthyWormCoin"
 files:
 - "qt-win32-4.8.5-gitian-r3.zip"
 - "qt-win64-4.8.5-gitian-r3.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "boost-win64-1.55.0-gitian-r6.zip"
-- "RCoinUSA-deps-win32-gitian-r12.zip"
-- "RCoinUSA-deps-win64-gitian-r12.zip"
+- "HealthyWormCoin-deps-win32-gitian-r12.zip"
+- "HealthyWormCoin-deps-win64-gitian-r12.zip"
 script: |
   # Defines
   export TZ=UTC
@@ -46,44 +46,44 @@ script: |
     cd $STAGING
     unzip $INDIR/qt-win${BITS}-4.8.5-gitian-r3.zip
     unzip $INDIR/boost-win${BITS}-1.55.0-gitian-r6.zip
-    unzip $INDIR/RCoinUSA-deps-win${BITS}-gitian-r12.zip
+    unzip $INDIR/HealthyWormCoin-deps-win${BITS}-gitian-r12.zip
     if [ "$NEEDDIST" == "1" ]; then
       # Make source code archive which is architecture independent so it only needs to be done once
-      cd $HOME/build/RCoinUSA
-      git archive --format=tar -o RCoinUSA.tar HEAD
+      cd $HOME/build/HealthyWormCoin
+      git archive --format=tar -o HealthyWormCoin.tar HEAD
       cp doc/README_windows.txt $OUTDIR/readme.txt
       cp COPYING $OUTDIR/license.txt
-      DISTNAME=RCoinUSA.tar
+      DISTNAME=HealthyWormCoin.tar
       NEEDDIST=0
     fi
 
     # Build platform-dependent executables from source archive
     cd $BUILDDIR
-    cp -r $HOME/build/RCoinUSA distsrc
+    cp -r $HOME/build/HealthyWormCoin distsrc
     cd distsrc
 
     export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
     export FAKETIME=$REFERENCE_DATETIME
 
-    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=RCoinUSA QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=RCoinUSA" USE_BUILD_INFO=1
+    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=HealthyWormCoin QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=HealthyWormCoin" USE_BUILD_INFO=1
     make $MAKEOPTS
-    ${HOST}-strip release/RCoinUSA.exe
-    cp -f release/RCoinUSA.exe $BINDIR/
+    ${HOST}-strip release/HealthyWormCoin.exe
+    cp -f release/HealthyWormCoin.exe $BINDIR/
 
     cd src
-    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING RCoinUSAd.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=RCoinUSA"
-    ${HOST}-strip RCoinUSAd.exe
-    cp -f RCoinUSAd.exe $BINDIR/
+    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING HealthyWormCoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=HealthyWormCoin"
+    ${HOST}-strip HealthyWormCoind.exe
+    cp -f HealthyWormCoind.exe $BINDIR/
 
     cd $BUILDDIR
     mkdir nsis
     cd nsis
-    tar -xf $HOME/build/RCoinUSA/$DISTNAME
+    tar -xf $HOME/build/HealthyWormCoin/$DISTNAME
     mkdir release
-    cp $BINDIR/RCoinUSA.exe release/
-    cp $BINDIR/RCoinUSAd.exe release/
+    cp $BINDIR/HealthyWormCoin.exe release/
+    cp $BINDIR/HealthyWormCoind.exe release/
     makensis share/setup.nsi
-    cp share/RCoinUSA-*setup*.exe $BINDIR
+    cp share/HealthyWormCoin-*setup*.exe $BINDIR
     unset LD_PRELOAD
     unset FAKETIME
   done # for BITS in
@@ -93,4 +93,4 @@ script: |
   rm -rf $TEMPDIR
   mkdir -p $TEMPDIR
   cd $TEMPDIR
-  tar -xvf $HOME/build/RCoinUSA/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz
+  tar -xvf $HOME/build/HealthyWormCoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz

@@ -1,4 +1,4 @@
-Copyright (c) 2016-2017 The RCoinUSA developers
+Copyright (c) 2016-2017 The HealthyWormCoin developers
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying file
 license.txt or http://www.opensource.org/licenses/mit-license.php.  This
@@ -12,11 +12,11 @@ Mac OS X bitcoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
-Modified for RCoinUSA by Jeff Larkin <jefflarkin@gmail.com>
-Modified for RCoinUSA by Ben Rossi <ben@rossinet.com>
+Modified for HealthyWormCoin by Jeff Larkin <jefflarkin@gmail.com>
+Modified for HealthyWormCoin by Ben Rossi <ben@rossinet.com>
 
 
-See readme-qt.rst for instructions on building the RCoinUSA community version of RCoinUSA QT, the
+See readme-qt.rst for instructions on building the HealthyWormCoin community version of HealthyWormCoin QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -31,7 +31,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone git@github.com/RCoinUSA/RCoinUSA.git RCoinUSA
+git clone git@github.com/HealthyWormCoin/HealthyWormCoin.git HealthyWormCoin
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -47,14 +47,14 @@ sudo port install qrencode
 
 4.  Now you should be able to build bitcoind:
 
-cd RCoinUSA/src
+cd HealthyWormCoin/src
 make -f makefile.osx
 # To build 64-bit binaies:
 make -f makefile.osx RELEASE=true 64BIT=true
 
 Run:
-  ./RCoinUSAd --help  # for a list of command-line options.
+  ./HealthyWormCoind --help  # for a list of command-line options.
 Run
-  ./RCoinUSAd -daemon # to start the bitcoin daemon.
+  ./HealthyWormCoind -daemon # to start the bitcoin daemon.
 Run
-  ./RCoinUSAd help # When the daemon is running, to get a list of RPC commands
+  ./HealthyWormCoind help # When the daemon is running, to get a list of RPC commands

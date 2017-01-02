@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About RCoinUSA</source>
-        <translation>Su RCoinUSA</translation>
+        <source>About HealthyWormCoin</source>
+        <translation>Su HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;RCoinUSA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;HealthyWormCoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2014 Sviluppatori RCoinUSA</translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2014 Sviluppatori HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2016-2017 The RCoinUSA developers</source>
-        <translation>Copyright © 2011-2014 Sviluppatori RCoinUSA </translation>
+        <source>Copyright © 2016-2017 The HealthyWormCoin developers</source>
+        <translation>Copyright © 2011-2014 Sviluppatori HealthyWormCoin </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your RCoinUSA addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi RCoinUSA per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
+        <source>These are your HealthyWormCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Questi sono i tuoi indirizzi HealthyWormCoin per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RCoinUSAS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HealthyWormCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI RCoinUSAS&lt;/b&gt;!
+        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI HealthyWormCoinS&lt;/b&gt;!
 Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>RCoinUSA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RCoinUSAs from being stolen by malware infecting your computer.</source>
-        <translation>RCoinUSA si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi RCoinUSA da essere rubati con malware che ha infettato il tuo computer.</translation>
+        <source>HealthyWormCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HealthyWormCoins from being stolen by malware infecting your computer.</source>
+        <translation>HealthyWormCoin si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi HealthyWormCoin da essere rubati con malware che ha infettato il tuo computer.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about RCoinUSA</source>
-        <translation>Mostra informazioni su RCoinUSA</translation>
+        <source>Show information about HealthyWormCoin</source>
+        <translation>Mostra informazioni su HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>RCoinUSA Wallet</source>
-        <translation>Portafoglio RCoinUSA</translation>
+        <source>HealthyWormCoin Wallet</source>
+        <translation>Portafoglio HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a RCoinUSA address</source>
-        <translation>Invia monete ad un indirizzo RCoinUSA</translation>
+        <source>Send coins to a HealthyWormCoin address</source>
+        <translation>Invia monete ad un indirizzo HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About RCoinUSA</source>
-        <translation>Su RCoinUSA</translation>
+        <source>&amp;About HealthyWormCoin</source>
+        <translation>Su HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for RCoinUSA</source>
-        <translation>Modifica opzioni di configurazione per RCoinUSA</translation>
+        <source>Modify configuration options for HealthyWormCoin</source>
+        <translation>Modifica opzioni di configurazione per HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;RCoinUSA</source>
-        <translation>Mostra/Nascondi RCoinUSA</translation>
+        <source>Show/Hide &amp;HealthyWormCoin</source>
+        <translation>Mostra/Nascondi HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the RCoinUSA window</source>
-        <translation>Mostra o nascondi la finestra di RCoinUSA</translation>
+        <source>Show or hide the HealthyWormCoin window</source>
+        <translation>Mostra o nascondi la finestra di HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>RCoinUSA client</source>
-        <translation>Client RCoinUSA</translation>
+        <source>HealthyWormCoin client</source>
+        <translation>Client HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to RCoinUSA network</source>
+        <source>%n active connection(s) to HealthyWormCoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -679,8 +679,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. RCoinUSA can no longer continue safely and will quit.</source>
-        <translation>Un errore fatale è occorso. RCoinUSA non può più continuare in modo sicuro e sarà terminato.</translation>
+        <source>A fatal error occured. HealthyWormCoin can no longer continue safely and will quit.</source>
+        <translation>Un errore fatale è occorso. HealthyWormCoin non può più continuare in modo sicuro e sarà terminato.</translation>
     </message>
 </context>
 <context>
@@ -978,8 +978,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show RCoinUSA addresses in the transaction list</source>
-        <translation>Se mostrare gli indirizzi RCoinUSA nella lista transazioni</translation>
+        <source>Whether to show HealthyWormCoin addresses in the transaction list</source>
+        <translation>Se mostrare gli indirizzi HealthyWormCoin nella lista transazioni</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1046,8 +1046,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid RCoinUSA address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo RCoinUSA valido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HealthyWormCoin address.</source>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo HealthyWormCoin valido.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1089,8 +1089,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the RCoinUSA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aprire automaticamente la porta del client RCoinUSA nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
+        <source>Automatically open the HealthyWormCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aprire automaticamente la porta del client HealthyWormCoin nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1144,13 +1144,13 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start RCoinUSA on window system startup</source>
-        <translation>Avvia RCoinUSA a finestra all&apos;avvio del sistema</translation>
+        <source>&amp;Start HealthyWormCoin on window system startup</source>
+        <translation>Avvia HealthyWormCoin a finestra all&apos;avvio del sistema</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start RCoinUSA after the computer is turned on</source>
-        <translation>Automaticamente avvia RCoinUSA dopo che il computer è stato acceso</translation>
+        <source>Automatically start HealthyWormCoin after the computer is turned on</source>
+        <translation>Automaticamente avvia HealthyWormCoin dopo che il computer è stato acceso</translation>
     </message>
 </context>
 <context>
@@ -1477,8 +1477,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>RCoinUSA (RCoinUSA) debug window</source>
-        <translation>Finestra debug RCoinUSA (RCoinUSA)</translation>
+        <source>HealthyWormCoin (HealthyWormCoin) debug window</source>
+        <translation>Finestra debug HealthyWormCoin (HealthyWormCoin)</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1569,8 +1569,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the RCoinUSA RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Benvenuto alla console RCoinUSA RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
+        <source>Welcome to the HealthyWormCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Benvenuto alla console HealthyWormCoin RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
     </message>
 </context>
 <context>
@@ -1585,7 +1585,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>Spedisci RCoinUSA</translation>
+        <translation>Spedisci HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1764,7 +1764,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Conferma la spedizione di RCoinUSA</translation>
+        <translation>Conferma la spedizione di HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1803,8 +1803,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Inserisci un indirzzo RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Inserisci un indirzzo HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1829,7 +1829,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i RCoinUSA sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i HealthyWormCoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
 </context>
 <context>
@@ -1892,8 +1892,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Inserisci un indirzzo RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Inserisci un indirzzo HealthyWormCoin</translation>
     </message>
 </context>
 <context>
@@ -1957,8 +1957,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this RCoinUSA address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo RCoinUSA</translation>
+        <source>Sign the message to prove you own this HealthyWormCoin address</source>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1993,8 +1993,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified RCoinUSA address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo RCoinUSA specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified HealthyWormCoin address</source>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo HealthyWormCoin specificato</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2019,8 +2019,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a RCoinUSA address</source>
-        <translation>Inserisci un indirzzo RCoinUSA</translation>
+        <source>Enter a HealthyWormCoin address</source>
+        <translation>Inserisci un indirzzo HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2232,7 +2232,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Bisogna attendere 120 blocchi prima di spendere I RCoinUSA generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
+        <translation>Bisogna attendere 120 blocchi prima di spendere I HealthyWormCoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2578,18 +2578,18 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  RCoinUSA is probably already running.</source>
-        <translation>Impossibile connettersi con la porta %d su questo computer. RCoinUSA è probabilmente già in funzione.</translation>
+        <source>Unable to bind to port %d on this computer.  HealthyWormCoin is probably already running.</source>
+        <translation>Impossibile connettersi con la porta %d su questo computer. HealthyWormCoin è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>RCoinUSA version</source>
-        <translation>Versione RCoinUSA</translation>
+        <source>HealthyWormCoin version</source>
+        <translation>Versione HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or RCoinUSAd</source>
-        <translation>Invia un comando al -server o RCoinUSAd</translation>
+        <source>Send command to -server or HealthyWormCoind</source>
+        <translation>Invia un comando al -server o HealthyWormCoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2611,25 +2611,25 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: RCoinUSA.conf)</source>
-        <translation>Specifia il file di configurazione (default: RCoinUSA.conf)</translation>
+        <source>Specify configuration file (default: HealthyWormCoin.conf)</source>
+        <translation>Specifia il file di configurazione (default: HealthyWormCoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: RCoinUSAd.pid)</source>
-        <translation>Specifica il file pid (default: RCoinUSAd.pid)
+        <source>Specify pid file (default: HealthyWormCoind.pid)</source>
+        <translation>Specifica il file pid (default: HealthyWormCoind.pid)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation>Genera RCoinUSA
+        <translation>Genera HealthyWormCoin
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Non generare RCoinUSA
+        <translation>Non generare HealthyWormCoin
 </translation>
     </message>
     <message>
@@ -2895,30 +2895,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  RCoinUSA is probably already running.</source>
-        <translation>Non è possibile ottenere il lock sulla directory dati %s. RCoinUSA è probabilmente già in funzione.</translation>
+        <source>Cannot obtain a lock on data directory %s.  HealthyWormCoin is probably already running.</source>
+        <translation>Non è possibile ottenere il lock sulla directory dati %s. HealthyWormCoin è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>RCoinUSA</source>
-        <translation>RCoinUSA</translation>
+        <source>HealthyWormCoin</source>
+        <translation>HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of RCoinUSA</source>
-        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di RCoinUSA</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HealthyWormCoin</source>
+        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di HealthyWormCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart RCoinUSA to complete</source>
-        <translation>Il portafoglio deve essere riscritto: riavvia RCoinUSA per completare</translation>
+        <source>Wallet needed to be rewritten: restart HealthyWormCoin to complete</source>
+        <translation>Il portafoglio deve essere riscritto: riavvia HealthyWormCoin per completare</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=RCoinUSArpc
+rpcuser=HealthyWormCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2927,8 +2927,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong RCoinUSA will not work properly.</source>
-        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato RCoinUSA non funzionerà correttamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong HealthyWormCoin will not work properly.</source>
+        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato HealthyWormCoin non funzionerà correttamente.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
@@ -3057,7 +3057,7 @@ Se il file non esiste, crealo con permesso sola lettura del proprietario. </tran
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i RCoinUSA sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i HealthyWormCoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>

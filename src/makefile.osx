@@ -1,10 +1,10 @@
 # -*- mode: Makefile; -*-
 # Copyright (c) 2009-2010 Satoshi Nakamoto
-# Copyright (c) 2016-2017 The RCoinUSA developers
+# Copyright (c) 2016-2017 The HealthyWormCoin developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
-# Mac OS X makefile for RCoinUSA
+# Mac OS X makefile for HealthyWormCoin
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
@@ -27,7 +27,7 @@ LIBS= -dead_strip
 TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
 
 ifdef STATIC
-# Build STATIC if you are redistributing the RCoinUSAd binary
+# Build STATIC if you are redistributing the HealthyWormCoind binary
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
 LIBS += \
@@ -107,7 +107,7 @@ else
 endif
 endif
 
-all: RCoinUSAd
+all: HealthyWormCoind
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -125,7 +125,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-RCoinUSAd: $(OBJS:obj/%=obj/%)
+HealthyWormCoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -137,11 +137,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_RCoinUSA: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_HealthyWormCoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f RCoinUSAd test_RCoinUSA
+	-rm -f HealthyWormCoind test_HealthyWormCoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P
